@@ -5,9 +5,9 @@ const port = 3000;
 
 app.get("/", (req,res)=>{
     res.render("index.ejs",{
-        dayType: "a weekday", 
-        advice : "it's time to work hard",
-    });
+        dayName : "Monday",
+        advice : "Back To The Office !"
+    })
 })
 
 app.listen(port, ()=>{
